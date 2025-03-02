@@ -9,7 +9,6 @@ interface AchievementBadgeProps {
 
 export function AchievementBadge({ score }: AchievementBadgeProps) {
   const currentRank = getRank(score);
-  const nextRank = score < 100 ? getRank(score + 1) : null;
   const progressToNextRank = score;
 
   return (

@@ -14,6 +14,7 @@ export default function RootLayout({
 }) {
   // Suppress hydration warnings
   const [mounted, setMounted] = useState(false);
+  console.log("Mounted", mounted);
   useEffect(() => {
     setMounted(true);
   }, []);

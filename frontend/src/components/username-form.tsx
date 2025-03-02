@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useCallback } from 'react';
+import { useState } from 'react';
 import { generateUsername } from '@/lib/username-generator';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';

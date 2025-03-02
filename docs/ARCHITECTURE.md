@@ -264,15 +264,81 @@ graph TB
    - Response compression
    - CDN integration for static assets
 
+## Multiplayer Game Flow
+
+### Single Player Mode
+
+```mermaid
+sequenceDiagram
+    participant User
+    participant Server
+
+    User->>Server: Start Game
+    Server->>Server: Generate Random Question
+    Server->>User: Return Question + Options
+    User->>Server: Submit Answer
+    Server->>Server: Check Answer
+    Server->>User: Return Result + Score
+```
+
+The single-player mode maintains the original game flow where users can play independently, receiving random questions and immediate feedback on their answers.
+
+### Group Play Mode
+
+```mermaid
+sequenceDiagram
+    participant Creator as Bob (Creator)
+    participant Player2 as Alice
+    participant Player3 as Carol
+    participant Server
+    participant WebSocket
+
+    Creator->>Server: Create Group "Geography Masters"
+    Server->>Creator: Group ID: "GM123"
+
+    Player2->>Server: Join with ID "GM123"
+    Server->>WebSocket: Broadcast: Alice joined
+
+    Player3->>Server: Join with ID "GM123"
+    Server->>WebSocket: Broadcast: Carol joined
+
+    Creator->>Server: Start Game Round
+    Server->>Server: Generate Question
+    Server->>WebSocket: Broadcast: Round Started
+
+    par Parallel Answers
+        Creator->>Server: Submit Answer
+        Player2->>Server: Submit Answer
+        Player3->>Server: Submit Answer
+    end
+
+    Server->>WebSocket: Broadcast: Round Results
+```
+
+The group play mode introduces synchronized gameplay where multiple users can join a group (up to 10 players) and compete together. Each round is synchronized across all players with real-time updates through WebSocket connections.
+
+### Key Components
+
+1. **Group Management**
+   - Group creation with unique IDs
+   - Player join/leave handling
+   - Real-time player status updates
+
+2. **Game Synchronization**
+   - Synchronized question delivery
+   - Parallel answer submission
+   - Real-time score updates
+   - Round management
+
+3. **Real-time Communication**
+   - WebSocket connections for live updates
+   - Player status broadcasts
+   - Score and leaderboard updates
+   - Chat messages between players
+
 ## Future Improvements
 
-1. **Real-time Features**
-   - WebSocket integration for live updates
-   - Multiplayer rooms
-   - Live leaderboards
-   - Chat functionality
-
-2. **Game Features**
+1. **Game Features**
    - Different difficulty levels
    - Category-based questions
    - Time-based scoring

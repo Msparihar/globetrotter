@@ -20,6 +20,8 @@ export function Game({ user: initialUser }: GameProps) {
 
   // Keep user stats in sync
   const { data: updatedStats, isLoading: isLoadingStats } = useUserStats(initialUser.username);
+  console.log("updatedStats", updatedStats);
+  console.log("isLoadingStats", isLoadingStats);
 
   // Merge initial user data with updated stats, preferring updated stats when available
   const user = useMemo(() => ({
