@@ -48,6 +48,13 @@ export function useSubmitAnswer() {
         queryClient.invalidateQueries({ queryKey: queryKeys.question });
         queryClient.invalidateQueries({
           queryKey: queryKeys.userStats(user.username),
+          exact: true,
+        });
+
+        // Force refetch user stats immediately
+        queryClient.refetchQueries({
+          queryKey: queryKeys.userStats(user.username),
+          exact: true,
         });
       }
     },
@@ -59,6 +66,9 @@ export function useUserStats(username: string) {
   return useQuery({
     queryKey: queryKeys.userStats(username),
     queryFn: () => getUserStats(username),
-    enabled: !!username, // Only run the query if we have a username
+    enabled: !!username,
+    refetchOnMount: true,
+    refetchOnWindowFocus: true,
+    refetchInterval: 1000, // Refetch every second while the component is mounted
   });
 }

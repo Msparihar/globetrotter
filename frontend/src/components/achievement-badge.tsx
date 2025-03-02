@@ -9,6 +9,8 @@ interface AchievementBadgeProps {
 
 export function AchievementBadge({ score }: AchievementBadgeProps) {
   const currentRank = getRank(score);
+  const nextRank = score < 100 ? getRank(score + 1) : null;
+  const progressToNextRank = score;
 
   return (
     <motion.div
@@ -22,13 +24,13 @@ export function AchievementBadge({ score }: AchievementBadgeProps) {
         <motion.div
           className="h-full bg-primary"
           initial={{ width: 0 }}
-          animate={{ width: `${Math.min(score, 100)}%` }}
+          animate={{ width: `${progressToNextRank}%` }}
           transition={{ duration: 0.5, ease: "easeOut" }}
         />
       </div>
-      <p className="text-sm text-black mt-2">
+      <p className="text-sm text-gray-600 dark:text-gray-300 mt-2">
         {score < 100
-          ? `${100 - score}% until next rank`
+          ? `${score}% progress`
           : "Maximum rank achieved!"}
       </p>
     </motion.div>

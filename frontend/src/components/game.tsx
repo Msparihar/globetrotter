@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { AchievementBadge } from './achievement-badge';
 import confetti from 'canvas-confetti';
@@ -19,15 +19,19 @@ export function Game({ user: initialUser }: GameProps) {
   const [isShareOpen, setIsShareOpen] = useState(false);
 
   // Keep user stats in sync
-  const { data: updatedStats } = useUserStats(initialUser.username);
-  const user = {
+  const { data: updatedStats, isLoading: isLoadingStats } = useUserStats(initialUser.username);
+
+  // Merge initial user data with updated stats, preferring updated stats when available
+  const user = useMemo(() => ({
     ...initialUser,
     ...(updatedStats && {
       score: updatedStats.score,
       total_attempts: updatedStats.total_attempts,
-      correct_answers: updatedStats.total_attempts // Using total_attempts as correct_answers since that's what we have
+      correct_answers: updatedStats.score > 0
+        ? Math.round((updatedStats.score * updatedStats.total_attempts) / 100)
+        : 0
     })
-  };
+  }), [initialUser, updatedStats]);
 
   const {
     data: question,
@@ -141,7 +145,7 @@ export function Game({ user: initialUser }: GameProps) {
                 <CardDescription className="text-base text-gray-600 dark:text-gray-300">
                   Your Journey: {user.correct_answers}/{user.total_attempts} destinations discovered
                 </CardDescription>
-                <AchievementBadge score={user.score} />
+                <AchievementBadge score={user.score || 0} />
               </div>
             </div>
           </CardHeader>
