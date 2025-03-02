@@ -1,7 +1,7 @@
 import { GameQuestion, GameAnswer, GameResult, User, UserStats } from "./types";
 import { getRank } from "./constants";
 
-const API_BASE = "http://localhost:8000/api/v1";
+const API_BASE = "http://0.0.0.0:8000/api/v1";
 
 async function fetchApi<T>(
   endpoint: string,
