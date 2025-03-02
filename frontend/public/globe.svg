@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle stroke="#4299E1" stroke-width="12" cx="256" cy="256" r="200"></circle>
+        <path d="M156,106 Q306,156 356,256 Q406,356 356,406" stroke="#4299E1" stroke-width="4"></path>
+        <path d="M156,156 Q256,106 356,156 Q456,206 356,356" stroke="#4299E1" stroke-width="4"></path>
+        <path d="M106,256 Q206,156 256,256 Q306,356 406,256" stroke="#4299E1" stroke-width="4"></path>
+        <path d="M156,356 Q256,406 356,356" stroke="#4299E1" stroke-width="4"></path>
+        <path d="M256,56 L256,456" stroke="#4299E1" stroke-width="4"></path>
+        <path d="M56,256 L456,256" stroke="#4299E1" stroke-width="4"></path>
+    </g>
+</svg>

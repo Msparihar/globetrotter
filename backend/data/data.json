@@ -1,0 +1,418 @@
+[
+  {
+    "city": "Paris",
+    "country": "France",
+    "clues": [
+      "This city is home to a famous tower that sparkles every night.",
+      "Known as the 'City of Love' and a hub for fashion and art."
+    ],
+    "fun_fact": [
+      "The Eiffel Tower was supposed to be dismantled after 20 years but was saved because it was useful for radio transmissions!",
+      "Paris has only one stop sign in the entire city—most intersections rely on priority-to-the-right rules."
+    ],
+    "trivia": [
+      "This city is famous for its croissants and macarons. Bon appétit!",
+      "Paris was originally a Roman city called Lutetia."
+    ]
+  },
+  {
+    "city": "Tokyo",
+    "country": "Japan",
+    "clues": [
+      "This city has the busiest pedestrian crossing in the world.",
+      "You can visit an entire district dedicated to anime, manga, and gaming."
+    ],
+    "fun_fact": [
+      "Tokyo was originally a small fishing village called Edo before becoming the bustling capital it is today!",
+      "More than 14 million people live in Tokyo, making it one of the most populous cities in the world."
+    ],
+    "trivia": [
+      "The city has over 160,000 restaurants, more than any other city in the world.",
+      "Tokyo's subway system is so efficient that train delays of just a few minutes come with formal apologies."
+    ]
+  },
+  {
+    "city": "New York",
+    "country": "USA",
+    "clues": [
+      "Home to a green statue gifted by France in the 1800s.",
+      "Nicknamed 'The Big Apple' and known for its Broadway theaters."
+    ],
+    "fun_fact": [
+      "The Statue of Liberty was originally a copper color before oxidizing to its iconic green patina.",
+      "Times Square was once called Longacre Square before being renamed in 1904."
+    ],
+    "trivia": [
+      "New York City has 468 subway stations, making it one of the most complex transit systems in the world.",
+      "The Empire State Building has its own zip code: 10118."
+    ]
+  },
+  {
+    "city": "London",
+    "country": "United Kingdom",
+    "clues": [
+      "This city is famous for its iconic red telephone booths and double-decker buses.",
+      "Home to a giant Ferris wheel on the River Thames."
+    ],
+    "fun_fact": [
+      "The London Underground is the oldest underground railway network in the world, dating back to 1863.",
+      "Despite its reputation for rain, London actually has less annual rainfall than Rome, Barcelona, and even Sydney."
+    ],
+    "trivia": [
+      "The Great Fire of London in 1666 destroyed over 13,000 houses but resulted in improved building regulations.",
+      "The clock tower commonly referred to as 'Big Ben' is actually named Elizabeth Tower; Big Ben is the bell inside."
+    ]
+  },
+  {
+    "city": "Rome",
+    "country": "Italy",
+    "clues": [
+      "This city features an ancient amphitheater where gladiators once fought.",
+      "Visitors often throw coins into a famous fountain to ensure their return."
+    ],
+    "fun_fact": [
+      "About €3,000 is thrown into the Trevi Fountain each day and is collected to fund a supermarket for the city's poor.",
+      "Rome has more than 2,000 fountains, more than any other city in the world."
+    ],
+    "trivia": [
+      "Ancient Romans used to clean their teeth with urine due to its ammonia content.",
+      "The Roman Colosseum could hold up to 80,000 spectators for its events."
+    ]
+  },
+  {
+    "city": "Sydney",
+    "country": "Australia",
+    "clues": [
+      "This city features a famous opera house with sail-shaped roofs.",
+      "The largest natural harbor in the world is located here."
+    ],
+    "fun_fact": [
+      "The Sydney Opera House has over one million roof tiles covering approximately 1.62 hectares.",
+      "It took 16 years to build the Opera House, 10 years longer than expected."
+    ],
+    "trivia": [
+      "Sydney's Harbour Bridge is nicknamed 'The Coathanger' due to its distinctive arch-based design.",
+      "Approximately 40% of Sydney's population was born overseas, making it one of the world's most multicultural cities."
+    ]
+  },
+  {
+    "city": "Cairo",
+    "country": "Egypt",
+    "clues": [
+      "This city is located near one of the seven wonders of the ancient world.",
+      "The oldest and largest film industry in the Arab world is based here."
+    ],
+    "fun_fact": [
+      "Cairo is home to Al-Azhar University, one of the oldest universities in the world, established in 970 CE.",
+      "The city's name 'Al-Qahirah' in Arabic means 'The Vanquisher' or 'The Conqueror'."
+    ],
+    "trivia": [
+      "Despite being in a desert country, Cairo rarely experiences rain but when it does, it can cause significant flooding due to poor drainage systems.",
+      "The Great Pyramid of Giza was the tallest man-made structure in the world for nearly 4,000 years."
+    ]
+  },
+  {
+    "city": "Rio de Janeiro",
+    "country": "Brazil",
+    "clues": [
+      "Famous for a giant statue of Christ with outstretched arms overlooking the city.",
+      "Home to one of the world's most famous beaches, renowned for its distinctive sidewalk pattern."
+    ],
+    "fun_fact": [
+      "The Rio Carnival is the world's largest carnival, with approximately 2 million people per day on the streets.",
+      "Rio de Janeiro briefly served as the capital of the Portuguese Empire from 1808 to 1821."
+    ],
+    "trivia": [
+      "The famous Christ the Redeemer statue is struck by lightning several times a year and has special lightning rods installed.",
+      "The iconic black and white wave pattern on Copacabana Beach sidewalks was designed by Brazilian landscape architect Roberto Burle Marx."
+    ]
+  },
+  {
+    "city": "Moscow",
+    "country": "Russia",
+    "clues": [
+      "This city's main square is known for its colorful onion-domed cathedral.",
+      "Home to the largest fortress in the world that serves as the official residence of the country's president."
+    ],
+    "fun_fact": [
+      "The Moscow Metro is one of the busiest and most beautiful subway systems in the world, with stations decorated like palaces.",
+      "Dogs in Moscow have learned to use the subway system to travel around the city independently."
+    ],
+    "trivia": [
+      "Moscow's Red Square is not named for the color of its bricks or communist associations but from the Russian word 'krasniy' which once meant 'beautiful'.",
+      "The Kremlin walls were originally made of wood and were rebuilt in red brick during the late 15th century."
+    ]
+  },
+  {
+    "city": "Dubai",
+    "country": "United Arab Emirates",
+    "clues": [
+      "This city is home to the world's tallest building.",
+      "Features artificial islands shaped like a palm tree when viewed from above."
+    ],
+    "fun_fact": [
+      "Dubai has the world's only 7-star hotel, although the rating isn't officially recognized by any international organization.",
+      "Only about 15% of Dubai's population are native Emiratis; the rest are expatriates."
+    ],
+    "trivia": [
+      "Dubai Police's fleet includes luxury cars like Lamborghinis, Ferraris, and Bugattis.",
+      "The city has virtually no address system – locations are described by nearby landmarks."
+    ]
+  },
+  {
+    "city": "Singapore",
+    "country": "Singapore",
+    "clues": [
+      "This city-state features a hotel with an infinity pool that appears to be floating above the skyline.",
+      "Known for strict rules against littering and chewing gum."
+    ],
+    "fun_fact": [
+      "Singapore's Changi Airport has its own butterfly garden with more than 1,000 butterflies and a 40-foot indoor waterfall.",
+      "The national anthem of Singapore is printed in microtext on the back of their $1,000 bill."
+    ],
+    "trivia": [
+      "Singapore has one of the world's lowest crime rates, making it one of the safest cities globally.",
+      "The Singapore Sling cocktail was created at the Raffles Hotel in Singapore in the early 1900s."
+    ]
+  },
+  {
+    "city": "Barcelona",
+    "country": "Spain",
+    "clues": [
+      "This city features a famous unfinished cathedral designed by Antoni Gaudí.",
+      "Known for its distinctive modernist architecture and vibrant street life."
+    ],
+    "fun_fact": [
+      "The Sagrada Família has been under construction since 1882 and is not expected to be completed until 2026.",
+      "Barcelona's main boulevard, La Rambla, was once a sewage-filled stream outside the city walls."
+    ],
+    "trivia": [
+      "Barcelona has 9 UNESCO World Heritage Sites, 7 of which were designed by Antoni Gaudí.",
+      "The city is the only one in the world to receive a Royal Gold Medal for architecture from the Royal Institute of British Architects."
+    ]
+  },
+  {
+    "city": "Venice",
+    "country": "Italy",
+    "clues": [
+      "This city is built on more than 100 small islands and has canals instead of streets.",
+      "Famous for its gondolas and annual carnival featuring elaborate masks."
+    ],
+    "fun_fact": [
+      "Venice has about 400 foot bridges and 170 boat canals, with the Grand Canal being the largest and most famous.",
+      "The city is sinking at a rate of approximately 1-2mm per year."
+    ],
+    "trivia": [
+      "Venetians once painted their homes in bright colors so fishermen could identify their homes from the sea.",
+      "The profession of gondolier is passed down from father to son, and there are only about 400 licensed gondoliers in Venice."
+    ]
+  },
+  {
+    "city": "Amsterdam",
+    "country": "Netherlands",
+    "clues": [
+      "This city has more canals than Venice and more bridges than Paris.",
+      "Famous for its narrow houses, bicycles, and historical museums."
+    ],
+    "fun_fact": [
+      "Amsterdam houses are narrow because property taxes were once based on the width of the facade facing the canal.",
+      "There are approximately 881,000 bicycles in Amsterdam, which is more than the number of residents."
+    ],
+    "trivia": [
+      "The narrowest house in Amsterdam is just 2.02 meters (6 feet 7 inches) wide, while the narrowest facade is only 1 meter wide.",
+      "Many of Amsterdam's canal houses are tilted forward intentionally - this design allowed goods to be hoisted up without hitting the facade."
+    ]
+  },
+  {
+    "city": "Istanbul",
+    "country": "Turkey",
+    "clues": [
+      "This city sits on two continents divided by a strait.",
+      "Once known as Constantinople, it was the capital of multiple empires."
+    ],
+    "fun_fact": [
+      "Istanbul is the only city in the world that spans two continents: Europe and Asia.",
+      "The Grand Bazaar in Istanbul is one of the oldest and largest covered markets in the world with over 4,000 shops."
+    ],
+    "trivia": [
+      "The Hagia Sophia, now a mosque, was originally built as a cathedral in 537 CE and was the world's largest cathedral for nearly 1,000 years.",
+      "Istanbul has been the capital of three great empires: Roman, Byzantine, and Ottoman."
+    ]
+  },
+  {
+    "city": "Bangkok",
+    "country": "Thailand",
+    "clues": [
+      "This city has a temple with a massive reclining Buddha statue.",
+      "Known for floating markets and street food culture."
+    ],
+    "fun_fact": [
+      "Bangkok's full ceremonial name is the longest city name in the world with 169 characters.",
+      "The city is sinking at a rate of 2-3 centimeters per year due to excessive groundwater pumping."
+    ],
+    "trivia": [
+      "Bangkok has more than 400 wats (Buddhist temples) scattered throughout the city.",
+      "The Thai currency, the baht, is illegal to take out of the country and considered more valuable within Thailand than outside."
+    ]
+  },
+  {
+    "city": "Cape Town",
+    "country": "South Africa",
+    "clues": [
+      "This city sits at the foot of a famous flat-topped mountain.",
+      "Known for its stunning beaches and nearby penguin colonies."
+    ],
+    "fun_fact": [
+      "Table Mountain has its own 'tablecloth' – a cloud formation that drapes over the mountain when the temperature drops.",
+      "Cape Town is known for having four distinct seasons in a single day due to its unique geography and weather patterns."
+    ],
+    "trivia": [
+      "Cape Town is home to the first heart transplant which was performed by Dr. Christiaan Barnard in 1967.",
+      "The Castle of Good Hope in Cape Town is the oldest surviving colonial building in South Africa, built between 1666 and 1679."
+    ]
+  },
+  {
+    "city": "Mexico City",
+    "country": "Mexico",
+    "clues": [
+      "This city was built on a lake and has been sinking since its founding.",
+      "Home to the most museums of any city in the Americas."
+    ],
+    "fun_fact": [
+      "Mexico City is built on the ruins of Tenochtitlan, the ancient Aztec capital, and much of it sits on a drained lake bed.",
+      "The city has the largest concentration of museums in the world, with over 150 official museums."
+    ],
+    "trivia": [
+      "Mexico City's Chapultepec Park is one of the largest city parks in the Western Hemisphere, nearly twice the size of Central Park in New York.",
+      "The Metro system serves 4.6 million people daily and has multiple stations with Aztec artifacts displayed inside."
+    ]
+  },
+  {
+    "city": "Mumbai",
+    "country": "India",
+    "clues": [
+      "This city is home to the world's largest film industry.",
+      "Features a famous arch monument on the waterfront that was built to commemorate a royal visit."
+    ],
+    "fun_fact": [
+      "Mumbai's dabbawalas deliver over 200,000 home-cooked lunches to office workers every day with remarkable precision and almost no errors.",
+      "The city was originally a cluster of seven islands that were joined through land reclamation projects in the 19th century."
+    ],
+    "trivia": [
+      "Mumbai's Dharavi is one of the largest slums in Asia but also one of the most productive, with an annual economic output of approximately $1 billion.",
+      "The name 'Bollywood' comes from combining Bombay (Mumbai's former name) with Hollywood."
+    ]
+  },
+  {
+    "city": "Berlin",
+    "country": "Germany",
+    "clues": [
+      "This city was once divided by a famous wall that fell in 1989.",
+      "Known for its vibrant street art scene and techno music clubs."
+    ],
+    "fun_fact": [
+      "Berlin has more bridges than Venice with over 1,700 bridges spanning its many canals and waterways.",
+      "There's a currywurst museum in Berlin dedicated to the city's most popular street food."
+    ],
+    "trivia": [
+      "Berlin's main train station, Hauptbahnhof, is the largest crossing station in Europe, spanning five levels.",
+      "The Berlin Wall was actually two walls with a 'death strip' in between where guards could shoot escapees."
+    ]
+  },
+  {
+    "city": "Buenos Aires",
+    "country": "Argentina",
+    "clues": [
+      "This city is known as the 'Paris of South America' for its European architecture.",
+      "Home to a colorful neighborhood famous for tango dancing."
+    ],
+    "fun_fact": [
+      "Buenos Aires has the highest concentration of bookstores per person of any city in the world.",
+      "The city's main avenue, 9 de Julio Avenue, is the widest avenue in the world with up to 16 lanes."
+    ],
+    "trivia": [
+      "The Recoleta Cemetery in Buenos Aires, where Eva Perón is buried, is like a small city with streets and ornate mausoleums.",
+      "Buenos Aires was founded twice: first in 1536, then abandoned and refounded in 1580."
+    ]
+  },
+  {
+    "city": "Vienna",
+    "country": "Austria",
+    "clues": [
+      "This city is famous for its classical music heritage and opera houses.",
+      "Known for its coffee house culture and Sachertorte chocolate cake."
+    ],
+    "fun_fact": [
+      "Vienna's central cemetery (Zentralfriedhof) is home to more than 3 million people, more than the living population of the city.",
+      "The snow globe was invented in Vienna in 1900 by surgical instrument maker Erwin Perzy."
+    ],
+    "trivia": [
+      "Vienna has consistently been ranked as one of the world's most livable cities and has some of the world's best drinking water piped directly from the Alps.",
+      "The world's oldest zoo still in operation is located in Vienna, founded in 1752 as an imperial menagerie."
+    ]
+  },
+  {
+    "city": "Toronto",
+    "country": "Canada",
+    "clues": [
+      "This city is home to a famous tower that was once the world's tallest freestanding structure.",
+      "Known for its diverse population with over 200 ethnic groups speaking more than 140 languages."
+    ],
+    "fun_fact": [
+      "Toronto has the longest street in the world according to the Guinness Book of World Records: Yonge Street stretches for 1,896 km (1,178 miles).",
+      "The city has more than 10 million trees, giving it the nickname 'The City Within a Park'."
+    ],
+    "trivia": [
+      "Toronto's PATH is the largest underground shopping complex in the world with 30 km (19 miles) of shopping arcades.",
+      "The city is built on a series of ravines that create one of the largest urban forest systems in the world."
+    ]
+  },
+  {
+    "city": "Stockholm",
+    "country": "Sweden",
+    "clues": [
+      "This city is spread across 14 islands connected by 57 bridges.",
+      "Home to a museum dedicated to a 17th-century warship that sank on its maiden voyage."
+    ],
+    "fun_fact": [
+      "Stockholm's subway system is known as the world's longest art gallery, with unique installations in almost every station.",
+      "The Stockholm archipelago consists of about 30,000 islands, islets, and skerries."
+    ],
+    "trivia": [
+      "The Nobel Prize ceremony is held annually in Stockholm's Concert Hall, followed by a banquet in the City Hall.",
+      "Stockholm was the first city to introduce congestion charging in Europe, significantly reducing traffic in the city center."
+    ]
+  },
+  {
+    "city": "Seoul",
+    "country": "South Korea",
+    "clues": [
+      "This city features ancient palaces alongside ultra-modern skyscrapers.",
+      "Known for its vibrant street food scene and 24-hour culture."
+    ],
+    "fun_fact": [
+      "Seoul's Incheon International Airport has been rated the world's best airport multiple times and features a golf course, ice skating rink, and indoor gardens.",
+      "The city has the world's fastest average internet speed and free public Wi-Fi is available across much of the capital."
+    ],
+    "trivia": [
+      "Seoul was almost completely destroyed during the Korean War but was rebuilt in just 50 years to become one of the world's most modern cities.",
+      "The iconic N Seoul Tower changes colors based on air quality readings in the city."
+    ]
+  },
+  {
+    "city": "Marrakech",
+    "country": "Morocco",
+    "clues": [
+      "This city is known for its ancient medina with narrow maze-like streets.",
+      "Famous for vibrant markets called souks and a central square filled with entertainers."
+    ],
+    "fun_fact": [
+      "Almost all buildings in the old city of Marrakech are painted in a specific shade of red-orange, giving it the nickname 'Red City'.",
+      "The traditional riads (houses) feature interior gardens designed to provide natural air conditioning in the desert heat."
+    ],
+    "trivia": [
+      "The tanneries of Marrakech still use medieval techniques to produce leather goods, with workers standing waist-deep in vats of dye.",
+      "The famous Jemaa el-Fnaa square transforms completely from day to night, from a marketplace to an open-air dining area with storytellers and musicians."
+    ]
+  }
+]
