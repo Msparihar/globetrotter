@@ -1,6 +1,6 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { createUser, getQuestion, submitAnswer, getUserStats } from "@/lib/api";
-import { GameAnswer, GameResult, User } from "@/lib/types";
+import { GameAnswer, User } from "@/lib/types";
 
 // Query keys
 export const queryKeys = {

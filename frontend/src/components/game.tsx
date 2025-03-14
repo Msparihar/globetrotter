@@ -8,9 +8,7 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { User } from '@/lib/types';
 import { ShareDialog } from './share-dialog';
-import { useQuestion, useSubmitAnswer, useUserStats, queryKeys } from '@/hooks/use-game-queries';
-import { useQueryClient } from '@tanstack/react-query';
-import { getUserStats } from '@/lib/api';
+import { useQuestion, useSubmitAnswer, useUserStats } from '@/hooks/use-game-queries';
 import Image from 'next/image';
 
 interface GameProps {
@@ -18,7 +16,6 @@ interface GameProps {
 }
 
 export function Game({ user: initialUser }: GameProps) {
-  const queryClient = useQueryClient();
   const [isShareOpen, setIsShareOpen] = useState(false);
 
   // Keep user stats in sync
