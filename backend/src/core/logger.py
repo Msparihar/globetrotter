@@ -49,3 +49,6 @@ def setup_logging(log_file: str = "logs/globetrotter.log") -> None:
             uvicorn_logger.addHandler(file_handler)
 
     logger.info("Logging configuration completed")
+
+
+logger = logging.getLogger("globetrotter")

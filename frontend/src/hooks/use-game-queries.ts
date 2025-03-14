@@ -37,26 +37,29 @@ export function useSubmitAnswer() {
   const queryClient = useQueryClient();
 
   return useMutation({
-    mutationFn: ({ userId, answer }: { userId: number; answer: GameAnswer }) =>
-      submitAnswer(userId, answer),
-    onSuccess: (gameResult: GameResult, variables) => {
-      // Get the current user data from the cache
-      const user = queryClient.getQueryData<User>(["user", variables.userId]);
+    mutationFn: async ({
+      userId,
+      answer,
+    }: {
+      userId: number;
+      answer: GameAnswer;
+    }) => {
+      // First submit the answer
+      const result = await submitAnswer(userId, answer);
 
+      // Get the current user data from cache
+      const user = queryClient.getQueryData<User>(["user", userId]);
       if (user) {
-        // Invalidate both question and user stats
-        queryClient.invalidateQueries({ queryKey: queryKeys.question });
-        queryClient.invalidateQueries({
-          queryKey: queryKeys.userStats(user.username),
-          exact: true,
-        });
-
-        // Force refetch user stats immediately
-        queryClient.refetchQueries({
-          queryKey: queryKeys.userStats(user.username),
-          exact: true,
-        });
+        // Then fetch updated stats
+        const updatedStats = await getUserStats(user.username);
+        // Update stats in cache
+        queryClient.setQueryData(
+          queryKeys.userStats(user.username),
+          updatedStats
+        );
       }
+
+      return result;
     },
   });
 }
@@ -67,8 +70,5 @@ export function useUserStats(username: string) {
     queryKey: queryKeys.userStats(username),
     queryFn: () => getUserStats(username),
     enabled: !!username,
-    refetchOnMount: true,
-    refetchOnWindowFocus: true,
-    refetchInterval: 1000, // Refetch every second while the component is mounted
   });
 }
